@@ -29,5 +29,5 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  "SELECT name FROM bears ORDER BY temperament ASC Limit 1";
+ "SELECT count FROM bears WHERE temperament = 'aggressive' ";
 end
